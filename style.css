@@ -23,6 +23,7 @@ header h1 {
     margin: 0;
     color: #ffcc00;
 }
+
 nav {
     margin-top: 10px;
 }
@@ -38,6 +39,7 @@ nav a {
 nav a:hover {
     color: #ffcc00;
 }
+
 /* Home Page Layout - Centered and Full Width */
 .home-section {
     display: flex;
@@ -84,6 +86,9 @@ nav a:hover {
     margin-top: 10px;
     color: #ffcc00;
 }
+
+
+
 /* Reviews Page */
 .reviews-section {
     display: flex;
@@ -103,6 +108,7 @@ nav a:hover {
     text-align: center;
 }
 
+
 .movie-container img {
     width: 50%;
     max-width: 250px;
@@ -119,10 +125,8 @@ nav a:hover {
     line-height: 1.6;
 }
 
+
 /* Genre Section */
-.genre-section{
-    margin-top: 120px;
-}
 .genre-container {
     display: flex;
     flex-direction: column;
@@ -133,11 +137,13 @@ nav a:hover {
     width: 100%;
 }
 
+
 .genre {
     background: #1e1e1e;
     border-radius: 10px;
     padding: 20px;
-    margin: 15px;
+    margin: auto;
+    margin-top: 150px;
     width: 50%;
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
     transition: transform 0.3s;
@@ -170,4 +176,3 @@ li {
 li:last-child {
     border-bottom: none;
 }
-
