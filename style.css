@@ -118,3 +118,56 @@ nav a:hover {
     font-size: 14px;
     line-height: 1.6;
 }
+
+/* Genre Section */
+.genre-section{
+    margin-top: 120px;
+}
+.genre-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.genre {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 50%;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.genre:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #f39c12;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    padding: 8px 0;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
